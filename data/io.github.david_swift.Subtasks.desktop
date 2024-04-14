@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+
+Name=Subtasks
+Comment=Organize your tasks
+Categories=Utility;GNOME;
+
+Icon=io.github.david_swift.Subtasks
+Exec=Subtasks
+Terminal=false

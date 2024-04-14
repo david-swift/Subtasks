@@ -1,17 +1,53 @@
 default: en
 
-helloWorld:
-    en: Hello, world!
-    de: Hallo, Welt!
+about:
+    de: "Info zu Subtasks"
+    en: "About Subtasks"
 
-newWindow:
-    en: New Window
-    de: Neues Fenster
+add:
+    de: "Hinzufügen"
+    en: "Add"
 
-closeWindow:
-    en: Close Window
-    de: Fenster schliessen
+addTooltip:
+    de: "Aufgabe hinzufügen ..."
+    en: "Add Task..."
 
-quit:
-    en: Quit
-    de: Verlassen
+cancel:
+    de: "Abbrechen"
+    en: "Cancel"
+
+createNewTask:
+    de: "Neue Aufgabe erstellen"
+    en: "Create a new task"
+
+delete:
+    de: "Löschen"
+    en: "Delete"
+
+deleteDescription:
+    de: "Gelöschte Aufgaben und ihre Unteraufgaben können nicht wiederhergestellt werden"
+    en: "Deleted tasks and their subtasks cannot be restored"
+
+deleteTitle:
+    de: "Aufgabe löschen?"
+    en: "Delete Task?"
+
+deleteTooltip:
+    de: "Aufgabe löschen ..."
+    en: "Delete Task..."
+
+label:
+    de: "Titel"
+    en: "Label"
+
+noTasks:
+    de: "Keine Aufgaben"
+    en: "No Tasks"
+
+subtasks(count):
+    de: "(count) Aufgaben"
+    de(count == "0"): ""
+    de(count == "1"): "(count) Aufgabe"
+    en: "(count) subtasks"
+    en(count == "0"): ""
+    en(count == "1"): "(count) subtask"

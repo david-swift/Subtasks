@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="128px" viewBox="0 0 128 128" width="128px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <linearGradient id="a" gradientTransform="matrix(1.001506 0 0 0.999934 72.031212 -113.458832)" gradientUnits="userSpaceOnUse" x1="43.843597" x2="-60.000004" y1="234.000137" y2="234.000137">
+        <stop offset="0" stop-color="#d5d3cf"/>
+        <stop offset="0.0384615" stop-color="#e3e2df"/>
+        <stop offset="0.0769231" stop-color="#c0bfbc"/>
+        <stop offset="0.923077" stop-color="#c0bfbc"/>
+        <stop offset="0.961538" stop-color="#e3e2df"/>
+        <stop offset="1" stop-color="#d5d3cf"/>
+    </linearGradient>
+    <radialGradient id="b" cx="-24.238829" cy="225.595581" gradientTransform="matrix(1.757743 -0.0000001 0.00000004 1.949585 106.546471 -334.384766)" gradientUnits="userSpaceOnUse" r="24">
+        <stop offset="0" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#f6f5f4"/>
+    </radialGradient>
+    <path d="m 19.941406 70.527344 h 88 c 4.417969 0 8 3.582031 8 8 v 32 c 0 4.417968 -3.582031 8 -8 8 h -88 c -4.417968 0 -8 -3.582032 -8 -8 v -32 c 0 -4.417969 3.582032 -8 8 -8 z m 0 0" fill="url(#a)"/>
+    <path d="m 19.941406 12.160156 c -4.433594 0 -8 3.566406 -8 8 v 84 c 0 4.433594 3.566406 8 8 8 h 88 c 4.429688 0 8 -3.566406 8 -8 v -84 c 0 -4.433594 -3.570312 -8 -8 -8 z m 0 0" fill="url(#b)"/>
+    <g fill="none">
+        <path d="m 11.941407 62.527343 h 104" stroke="#deddda" stroke-width="4"/>
+        <path d="m 11.941407 61.527343 h 104" stroke="#c0bfbc" stroke-width="2"/>
+        <path d="m 51.941407 87.476562 c 0 7.179688 -5.820313 13 -13 13 c -7.179688 0 -13 -5.820312 -13 -13 c 0 -7.179687 5.820312 -13 13 -13 c 7.179687 0 13 5.820313 13 13 z m 0 0" stroke="#9a9996" stroke-linecap="square" stroke-width="2"/>
+    </g>
+    <path d="m 51.675782 36.371093 c 0 7.179688 -5.820313 13 -13 13 c -7.179688 0 -13 -5.820312 -13 -13 c 0 -7.179687 5.820312 -13 13 -13 c 7.179687 0 13 5.820313 13 13 z m 0 0" fill="#3584e4" stroke="#3584e4" stroke-width="2"/>
+    <path d="m 32.253907 37.539062 l 4.902343 5.304688 l 7.652344 -11.46875" fill="none" stroke="#fffefd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.66914"/>
+    <path d="m 88.832032 27.160156 l 10.144531 9.371094 l -10.09375 9.976562" fill="none" stroke="#9a9996" stroke-linecap="round" stroke-width="2.60437"/>
+    <path d="m 88.832032 77.570312 l 10.144531 9.371094 l -9.996094 10.359375" fill="none" stroke="#9a9996" stroke-linecap="round" stroke-width="2.60437"/>
+</svg>
