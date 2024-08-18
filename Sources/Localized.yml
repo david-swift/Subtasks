@@ -1,50 +1,64 @@
 default: en
 
 about:
+    ca: "Quant a subtasques"
     de: "Info zu Subtasks"
     en: "About Subtasks"
 
 add:
+    ca: "Afegeix"
     de: "Hinzufügen"
     en: "Add"
 
 addTooltip:
+    ca: "Afegeix una tasca..."
     de: "Aufgabe hinzufügen ..."
     en: "Add Task..."
 
 cancel:
+    ca: "Cancel·la"
     de: "Abbrechen"
     en: "Cancel"
 
 createNewTask:
+    ca: "Crea una nova tasca"
     de: "Neue Aufgabe erstellen"
     en: "Create a new task"
 
 delete:
+    ca: "Suprimeix"
     de: "Löschen"
     en: "Delete"
 
 deleteDescription:
+    ca: "Les tasques eliminades i les seves subtasques no es poden restaurar"
     de: "Gelöschte Aufgaben und ihre Unteraufgaben können nicht wiederhergestellt werden"
     en: "Deleted tasks and their subtasks cannot be restored"
 
 deleteTitle:
+    ca: "Suprimeix la tasca?"
     de: "Aufgabe löschen?"
     en: "Delete Task?"
 
 deleteTooltip:
+    ca: "Suprimeix la tasca..."
     de: "Aufgabe löschen ..."
     en: "Delete Task..."
 
 label:
+    ca: "Títol"
     de: "Titel"
     en: "Label"
 
 noTasks:
+    ca: "No hi ha cap tasca"
     de: "Keine Aufgaben"
     en: "No Tasks"
 
 subtasks(count):
+    ca: "(count) subtasques"
+    ca(count == "0"): ""
+    ca(count == "1"): "(count) subtasca"
     de: "(count) Aufgaben"
     de(count == "0"): ""
     de(count == "1"): "(count) Aufgabe"
