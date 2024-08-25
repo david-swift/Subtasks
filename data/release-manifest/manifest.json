@@ -40,8 +40,10 @@
         }
       ],
       "build-commands": [
-        "swift build --static-swift-stdlib",
-        "install -Dm755 .build/debug/Subtasks /app/bin/Subtasks",
+        "./setup-offline.sh",
+        "swift build -c release --static-swift-stdlib --skip-update",
+        "strip .build/release/Subtasks",
+        "install -Dm755 .build/release/Subtasks /app/bin/Subtasks",
         "install -Dm644 data/io.github.david_swift.Subtasks.metainfo.xml $DESTDIR/app/share/metainfo/io.github.david_swift.Subtasks.metainfo.xml",
         "install -Dm644 data/io.github.david_swift.Subtasks.desktop $DESTDIR/app/share/applications/io.github.david_swift.Subtasks.desktop",
         "install -Dm644 data/icons/io.github.david_swift.Subtasks.svg $DESTDIR/app/share/icons/hicolor/scalable/apps/io.github.david_swift.Subtasks.svg",
